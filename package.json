@@ -5,6 +5,12 @@
   "repository": "git@github.com:gscarv13/restaurant-js.git",
   "author": "Gus <gsc13@tuta.io>",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "eslint": "eslint .",
+    "stylelint": "stylelint '**/*.{css,scss}'"
+  },
   "devDependencies": {
     "babel-eslint": "10.x",
     "eslint": "7.x",
@@ -13,6 +19,8 @@
     "stylelint": "13.x",
     "stylelint-config-standard": "21.x",
     "stylelint-csstree-validator": "1.x",
-    "stylelint-scss": "3.x"
+    "stylelint-scss": "3.x",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
   }
 }
