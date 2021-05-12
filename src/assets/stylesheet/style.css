@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+/* font-family: 'Lexend Zetta', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/* font-family: 'Lexend Deca', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+}
+
+#content {
+  background-image: url('../images/bg-m3.jpg');
+  background-size: cover;
+  background-position-y: 23%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  width: 500px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: 2px solid #fff;
+}
+
+.logo {
+  height: 55px;
+  margin: 12px;
+  background-color: #aa1905 ;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.logo a {
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
+}
+
+.menu {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 12px 8px;
+  font-size: 25px;
+  font-weight: 800;
+  height: 100%;
+}
+
+.menu a {
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.item-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 61px;
+}
+
+.selected {
+  border-bottom: #aa1905 10px solid;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  background-color: rgba( 0, 0, 0, 0.65);
+  height: 500px;
+}
+
+.main h1 {
+  font-size: 70px;
+  font-family: 'Lexend Zetta', sans-serif;
+}
+
+.main p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba( 0, 0, 0, 0.9);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
