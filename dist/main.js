@@ -70,13 +70,43 @@ eval("module.exports = __webpack_require__.p + \"954b7845c8fb7ac0ccf2.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/images/map.png":
+/*!***********************************!*\
+  !*** ./src/assets/images/map.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c083dde2b699aeec2606.png\";\n\n//# sourceURL=webpack://restaurant-js/./src/assets/images/map.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_stylesheet_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/stylesheet/style.css */ \"./src/assets/stylesheet/style.css\");\n/* harmony import */ var _assets_images_bg_m3_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/bg-m3.jpg */ \"./src/assets/images/bg-m3.jpg\");\n\n\n\n\n//# sourceURL=webpack://restaurant-js/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_stylesheet_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/stylesheet/style.css */ \"./src/assets/stylesheet/style.css\");\n/* harmony import */ var _assets_images_bg_m3_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/bg-m3.jpg */ \"./src/assets/images/bg-m3.jpg\");\n/* harmony import */ var _assets_images_map_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/map.png */ \"./src/assets/images/map.png\");\n/* harmony import */ var _scripts_navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scripts/navbar */ \"./src/scripts/navbar.js\");\n/* harmony import */ var _scripts_home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scripts/home */ \"./src/scripts/home.js\");\n\n\n\n\n\n\n\nconst loadPage = () => {\n  const content = document.querySelector('#content');\n  const main = (0,_scripts_home__WEBPACK_IMPORTED_MODULE_4__.mainContainer)();\n\n  content.appendChild((0,_scripts_navbar__WEBPACK_IMPORTED_MODULE_3__.default)());\n\n  (0,_scripts_home__WEBPACK_IMPORTED_MODULE_4__.homeContent)(main);\n  content.appendChild(main);\n};\n\nloadPage();\n\n//# sourceURL=webpack://restaurant-js/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/home.js":
+/*!*****************************!*\
+  !*** ./src/scripts/home.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"mainContainer\": () => (/* binding */ mainContainer),\n/* harmony export */   \"homeContent\": () => (/* binding */ homeContent)\n/* harmony export */ });\nconst mainContainer = () => {\n  const main = document.createElement('main');\n  main.classList.add('main');\n\n  return main;\n};\n\nconst homeContent = (main) => {\n  const header = document.createElement('h1');\n  const paragraph = document.createElement('p');\n\n  header.textContent = 'Anteiku';\n  paragraph.textContent = 'Online order and delivery available. ';\n\n  main.appendChild(header);\n  main.appendChild(paragraph);\n\n  return main;\n};\n\n\n\n//# sourceURL=webpack://restaurant-js/./src/scripts/home.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/navbar.js":
+/*!*******************************!*\
+  !*** ./src/scripts/navbar.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst renderNavigation = () => {\n  const navbar = document.createElement('nav');\n\n  const logoContainer = document.createElement('div');\n  const logoLink = document.createElement('a');\n\n  const menuContainer = document.createElement('div');\n  const menuLinkWrapper = document.createElement('div');\n  const contactLinkWrapper = document.createElement('div');\n  const aboutLinkWrapper = document.createElement('div');\n  const menuLink = document.createElement('a');\n  const contactLink = document.createElement('a');\n  const aboutLink = document.createElement('a');\n\n  navbar.classList.add('navbar');\n\n  logoContainer.classList.add('logo');\n  logoLink.textContent = '食';\n  logoContainer.appendChild(logoLink);\n\n  menuContainer.classList.add('menu');\n\n  menuLinkWrapper.classList.add('item-box');\n  menuLink.textContent = 'Menu';\n  menuLinkWrapper.appendChild(menuLink);\n\n  contactLinkWrapper.classList.add('item-box');\n  contactLink.textContent = 'Contact';\n  contactLinkWrapper.appendChild(contactLink);\n\n  aboutLinkWrapper.classList.add('item-box');\n  aboutLink.textContent = 'About';\n  aboutLinkWrapper.appendChild(aboutLink);\n\n  menuContainer.appendChild(menuLinkWrapper);\n  menuContainer.appendChild(contactLinkWrapper);\n  menuContainer.appendChild(aboutLinkWrapper);\n\n  navbar.appendChild(logoContainer);\n  navbar.appendChild(menuContainer);\n\n  return navbar;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderNavigation);\n\n//# sourceURL=webpack://restaurant-js/./src/scripts/navbar.js?");
 
 /***/ })
 
