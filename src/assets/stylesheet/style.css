@@ -84,7 +84,7 @@
   margin-top: 50px;
   width: 100%;
   background-color: rgba( 0, 0, 0, 0.65);
-  height: 500px;
+  height: 430px;
 }
 
 .main h1 {
@@ -95,6 +95,47 @@
 .main p {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  width: 500px;
+  height: 100%;
+}
+
+.dish-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.dish-item p {
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.about {
+  padding: 0 80px;
+}
+
+.about h2 {
+  margin-bottom: 20px;;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.contact {
+  width: 500px;
+}
+
+.contact p {
+  font-size: 18px;
 }
 
 footer {
