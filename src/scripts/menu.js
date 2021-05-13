@@ -9,7 +9,7 @@ const renderMenu = (main) => {
     const dishPrice = document.createElement('h3');
 
     dishName.textContent = 'Dish';
-    dishDescription.textContent = ' Some description of the dish goes here, and also add some more description';
+    dishDescription.textContent = 'Some description of the dish goes here, and also add some more information.';
     dishPrice.textContent = '$20';
 
     dishItem.classList.add('dish-item');

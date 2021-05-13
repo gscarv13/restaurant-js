@@ -10,7 +10,7 @@ const renderFooter = () => {
   link2.href = 'https://unsplash.com/@lindsaymoe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText';
   link2.textContent = 'Unsplash';
 
-  paragraph.append('Photo by', link1, ' on ', link2);
+  paragraph.append('Photo by ', link1, ' on ', link2);
   footerContainer.appendChild(paragraph);
   return footerContainer;
 };
