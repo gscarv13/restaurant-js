@@ -14,9 +14,9 @@
 - Webpack
 - yarn
 
-<!-- ## Live version
+## Live version
 
-You can check the live version in [this link](...) -->
+You can check the live version in [this link](https://gscarv13-restaurant-js.netlify.app/)
 
 ## Getting Started
 
