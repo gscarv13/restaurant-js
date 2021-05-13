@@ -22,14 +22,17 @@ const renderNavigation = () => {
 
   menuLinkWrapper.classList.add('item-box');
   menuLink.textContent = 'Menu';
+  menuLink.classList.add('menuListener');
   menuLinkWrapper.appendChild(menuLink);
 
   contactLinkWrapper.classList.add('item-box');
   contactLink.textContent = 'Contact';
+  contactLink.classList.add('contactListener');
   contactLinkWrapper.appendChild(contactLink);
 
   aboutLinkWrapper.classList.add('item-box');
   aboutLink.textContent = 'About';
+  aboutLink.classList.add('aboutListener');
   aboutLinkWrapper.appendChild(aboutLink);
 
   menuContainer.appendChild(menuLinkWrapper);
