@@ -1,4 +1,4 @@
-# Javascript Library
+# Anteiku Restaurant
 
 > This project is a restaurant page built with webpack and javascript ES6 modules
 
